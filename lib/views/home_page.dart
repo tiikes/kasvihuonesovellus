@@ -28,11 +28,11 @@ class _HomePageState extends State<HomePage> {
           });
         },
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Koti'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.bar_chart), label: 'Statistics'),
+              icon: Icon(Icons.bar_chart), label: 'Historia'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.settings), label: 'Settings'),
+              icon: Icon(Icons.settings), label: 'Asetukset'),
         ],
       ),
     );
