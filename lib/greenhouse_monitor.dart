@@ -25,7 +25,7 @@ class GreenhouseMonitor extends ConsumerWidget {
     final greenhouseData = ref.watch(greenhouseViewModelProvider);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Kasvihuone')),
+      appBar: AppBar(title: const Text('Greenhouse Monitor')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
